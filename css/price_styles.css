@@ -1,0 +1,20 @@
+body{
+  display: grid;
+  grid-template-areas:
+"header header header header header" 200px
+"nav nav nav nav nav " 150px
+
+;
+}
+
+nav{
+  background-color: blue;
+}
+
+/* ul{
+  display: flex;
+} */
+
+li{
+  display: flex;
+}

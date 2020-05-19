@@ -1,0 +1,219 @@
+
+
+/* 共通 */
+#welcome{
+  font-family: 'Alegreya Sans SC' ,'Kosugi', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2{
+  font-family: 'Alegreya Sans SC', 'Kosugi', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/* カルーセル */
+.swiper-container{
+  width: 100%;
+  background-color: #87ceeb;
+
+  margin-bottom: 25px;
+}
+
+.slide1{
+  width: 800px;
+  height: 300px;
+  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/items.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.slide2{
+  width: 800px;
+  height: 300px;
+  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/blog.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.slide3{
+  width: 800px;
+  height: 300px;
+  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/sns.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.swiper-slide{
+  text-align: center;
+}
+
+
+
+/* アイコン＋プロフィール */
+#iconProfile{
+  font-family: 'Alegreya Sans SC' ,'Kosugi', sans-serif;
+  background-color: rgba(245, 242, 69, 0.9);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+}
+
+.prof-image{
+  margin: 0 auto;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border: 5px solid #333;
+  border-radius: 50%;
+  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/profile.jpg" );
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+
+
+/* プライス設定＋アイコン */
+#iconPrice{
+  font-family: 'Alegreya Sans SC' ,'Kosugi', sans-serif;
+  background-color: rgba(69, 189, 245, 0.9);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+}
+
+.price-image{
+  margin: 0 auto;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border: 5px solid #333;
+  border-radius: 50%;
+  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/shopping-1724299_640.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+table{
+  text-align: center;
+}
+
+thead{
+  font-size: 30px;
+  color: rgb(255, 255, 45);
+  text-shadow: 1px 1px 2px #333;
+}
+
+tbody{
+  font-size: 24px;
+}
+
+.edit{
+  color: rgb(231, 227, 0);
+  text-shadow: -2px 2px black;
+  letter-spacing: 0.2rem;
+}
+
+.new{
+  color: rgb(221, 0, 0);
+  text-shadow: 2px 2px #eee;
+  letter-spacing: 0.2rem;
+}
+
+/* 三段カラム */
+#threeColumn{
+  font-family: 'Alegreya Sans SC' ,'Kosugi', sans-serif;
+  background-color: rgba(245, 242, 69, 0.9);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#threeColumn  h3{
+  padding-top: 30px;
+}
+
+#threeColumn  p{
+  margin-top: 30px;
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* footer */
+footer{
+  background-color: rgba(31, 31, 31,0.8);
+  color: #fff;
+  height: 200px;
+}
+
+footer p{
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* ページ下部の問い合わせボタン */
+.contact-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.otoiawase{
+  z-index: 2;
+  display: block;
+  font-size: 1.4rem;
+  background-color: #25ce00;
+  opacity: .8;
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 auto;
+  box-shadow: 0 4px 0 #333;
+}
+
+.otoiawase:hover{
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+.otoiawase > a{
+  color: #eee;
+  text-decoration: none;
+}
+
+.otoiawase > a:hover{
+  text-decoration: underline;
+}
+
+.closeButton{
+  z-index: 2;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.closeButton:hover{
+  cursor: pointer;
+  color: #eee;
+  border-color: #eee;
+
+}
+
+.noneblock{
+  display: none;
+}
