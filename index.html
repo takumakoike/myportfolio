@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TakumaKoike's Portfolio</title>
+  <!-- link　Swiper -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.8/css/swiper.min.css">
+  <!-- link　bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- link googlefont -->
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&family=Kosugi&display=swap" rel="stylesheet">
+  <!-- link original stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">  
+  <link rel="stylesheet" href="css/sass.scss">
+
+  <!-- script fontawesome -->
+  <script src="https://kit.fontawesome.com/1bf76a8c96.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- ヘッダー -->
+<header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <p id="welcome">Welcome To My Portfolio</p>
+      </div>
+    </div>
+  </div>
+</header><!-- /ヘッダーここまで -->
+  <!-- ナビバー -->
+  <nav class="sticky-top navbar navbar-expand-lg bg-primary navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">Icon</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Detail Profile</a>
+        </li>
+      </ul>
+    </div>
+  </nav><!-- /ナビバー -->
+
+
+  <!-- カルーセル -->
+<!-- Slider main container -->
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide slide1">
+      </div>
+      <div class="swiper-slide slide2"></div>
+      <div class="swiper-slide slide3"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+  
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
+
+
+  <!-- アイコン＋プロフィール -->
+  <section id="iconProfile">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Profile</h2>
+          <!-- アイコン画像はフリップで表裏ひっくり返るように -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5">
+          <div class="icon-image prof-image"></div>
+        </div>
+        <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5 ">
+          <div class="mx-5 textProfile">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="">続きを読む</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /アイコン＋プロフィール -->
+    
+    
+    
+  <!-- プライス設定＋アイコン -->
+<section id ="iconPrice">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h2>Price</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5 order-md-2">
+        <!-- カラム一つ目：アイコン -->
+        <div class="icon-image price-image">
+        </div>
+      </div>
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5 order-md-1 ">
+        <!-- カラム二つ目：プライス詳細 -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Type</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><span class="edit">Edit</span> LP</th>
+              <td>&yen;10,000~</td>
+            </tr>
+            <tr>
+              <th scope="row" ><span class="new"> New</span> LP</th>
+              <td>&yen;20,000~</td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="edit">Edit</span> HP</th>
+              <td>&yen;50,000~</td>
+            </tr>
+            <tr>
+              <th scope="row" ><span class="new"> New</span> HP</th>
+              <td>&yen;100,000~</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section><!-- /プライス設定＋アイコン -->
+
+  <!-- 三段カラム -->
+<section id="threeColumn">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <h3 class="text-center">History</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <h3 class="text-center">Motto</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <h3 class="text-center">Skills</h3>
+        <i class="fab fa-html5 fa-5x"></i>
+        <i class="fab fa-css3-alt fa-5x"></i>
+        <i class="fab fa-js-square fa-5x"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+  </div>
+</section><!-- /三段カラム -->
+  
+  <!-- フッター -->
+  <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col col-6 text-center">
+        <p>Privacy policy</p>
+      </div>
+      <div class="col col-6 text-center">
+        <p>&copy;CopyRight</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- コンタクトボタン -->
+<div class="contact-btn fixed-bottom">
+  <button type="button" class="otoiawase">
+    <a href="#">
+    問い合わせてみる</a></button>
+  <p class="closeButton">
+    <span>&times;</span>
+  </p>
+  
+</div><!-- /コンタクトボタン -->
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.8/js/swiper.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+</body>
+</html>
+
+
+
+<!-- 
+
+5/10これからやること
+  三段カラムのそれぞれの項目を作る
+  プロフィール詳細ページを作る
+  プライス画面の詳細を作る
+    できるパーツ一覧
+    作品物一覧のページへのリンク
+  モットーページを作る
+    自分の理念はなにか
+    どんな対応を心がけているか
+    問い合わせページへのリンク
+  スキル
+    学習言語としてHTML・CSS・JavaScript
+    今後習得予定としてRuby・Python・ｐｈｐ
+  Blog・SNS紹介のページ
+  プライバシーポリシーの画面作る
+  問い合わせ画面作る
+
+-->
