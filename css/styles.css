@@ -26,7 +26,7 @@ h2{
 .slide1{
   width: 800px;
   height: 300px;
-  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/items.png");
+  background-image:url("img/items.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -34,7 +34,7 @@ h2{
 .slide2{
   width: 800px;
   height: 300px;
-  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/blog.png");
+  background-image:url("img/blog.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -42,7 +42,7 @@ h2{
 .slide3{
   width: 800px;
   height: 300px;
-  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/sns.png");
+  background-image:url("img/sns.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -70,7 +70,7 @@ h2{
   height: 250px;
   border: 5px solid #333;
   border-radius: 50%;
-  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/profile.jpg" );
+  background-image:url("img/profile.jpg" );
   background-size: cover;
   background-repeat: no-repeat;  
 }
@@ -93,7 +93,7 @@ h2{
   height: 250px;
   border: 5px solid #333;
   border-radius: 50%;
-  background-image:url("/Users/koiketakuma/Desktop/MyPortFolio/img/shopping-1724299_640.png");
+  background-image:url("img/shopping-1724299_640.png");
   background-size: cover;
   background-repeat: no-repeat; 
 }
